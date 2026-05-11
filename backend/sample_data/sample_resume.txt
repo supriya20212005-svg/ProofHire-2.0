@@ -1,0 +1,15 @@
+Kunal Kumar
+Skills
+Java, Spring Boot, Python, FastAPI, SQL, MySQL, PostgreSQL, Redis, Kafka, Docker, Kubernetes, REST APIs, Distributed Systems, CI/CD, JUnit, Pytest
+Projects
+Distributed Job Scheduling System
+- Built a distributed scheduling backend using Java, Spring Boot, Kafka, Redis locks, PostgreSQL, worker heartbeats, retry policies, and dead-letter queue handling.
+- Implemented leader election, timeout detection, idempotency keys, monitoring APIs, Docker deployment, and integration-ready workflows.
+Adaptive API Gateway and Rate Limiter
+- Engineered an API gateway using Spring Boot and Redis for token bucket rate limiting, sliding-window throttling, tenant quotas, circuit breakers, and traffic control.
+- Added OpenTelemetry traces, correlation IDs, rollback-friendly policies, and hot-reloadable gateway rules.
+HireLens Explainable AI Candidate Evaluation Platform
+- Built a FastAPI backend that maps resume skills to project evidence and detects unsupported claims.
+- Implemented project-to-JD relevance scoring, interview risk prediction, RAG-based feedback, and React dashboard workflows.
+Education
+B.Tech Computer Science

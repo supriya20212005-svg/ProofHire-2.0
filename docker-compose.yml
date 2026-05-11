@@ -1,0 +1,22 @@
+services:
+  hirelens-backend:
+    build:
+      context: ./backend
+    container_name: hirelens_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/uploads:/app/uploads
+    environment:
+      DATABASE_URL: sqlite:///./hirelens.db
+      CORS_ORIGINS: http://localhost:5173,http://127.0.0.1:5173
+  hirelens-frontend:
+    build:
+      context: ./frontend
+    container_name: hirelens_frontend
+    ports:
+      - "5173:5173"
+    depends_on:
+      - hirelens-backend
+    environment:
+      VITE_API_BASE_URL: http://localhost:8000

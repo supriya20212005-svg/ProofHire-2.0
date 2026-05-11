@@ -1,0 +1,2 @@
+Software Engineer - Backend
+We need a candidate with strong Computer Science fundamentals, Java, Spring Boot, Python, SQL, MySQL, Redis, Kafka, REST APIs, Linux, CI/CD, Docker, distributed systems, automation, architecture, unit testing, and debugging skills. Preferred skills include Kubernetes, FastAPI, cloud infrastructure, and experience building scalable backend systems.
