@@ -1,6 +1,4 @@
-Use this cleaner, more professional README. It sounds stronger, less “over-claimed,” and more GitHub-ready.
 
-````markdown
 # HireLens — Explainable AI Candidate Evaluation Platform
 
 HireLens is an AI-powered candidate evaluation platform that analyzes how well a resume matches a target job description. Unlike basic ATS checkers that only count keywords, HireLens verifies whether listed skills are supported by project evidence, detects unsupported claims, ranks projects by job relevance, predicts interview risk areas, and generates an explainable readiness report.
