@@ -510,23 +510,7 @@ Overall readiness score calculation
 Core scoring engine behavior
 ```
 
----
 
-## Resume LaTeX Entry
-
-```latex
-\resumeProjectHeading
-{HireLens -- Explainable AI Candidate Evaluation Platform}
-{https://github.com/kunal7216/HireLens-AI-Candidate-Evaluation-Platform}
-{Python, FastAPI, React, PostgreSQL, pgvector, RAG, Redis, Docker, REST APIs}
-\resumeItemListStart
-\resumeItem{Candidates often list skills without defensible project evidence; built an explainable AI evaluation platform that maps resume skills to proof, detects unsupported claims, and generates role-specific readiness reports.}
-\resumeItem{Improved resume-role alignment by scoring skill match, keyword coverage, project evidence, claim support, semantic similarity, and interview readiness instead of relying on simple ATS keyword matching.}
-\resumeItem{Designed FastAPI and React workflows for resume upload, JD parsing, project-to-role ranking, interview risk prediction, bullet improvement, and audit-ready candidate evaluation reports.}
-\resumeItemListEnd
-```
-
----
 
 ## What This Project Demonstrates
 
