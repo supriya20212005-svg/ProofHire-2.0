@@ -1,0 +1,14 @@
+services:
+  # Backend API Service
+  - type: web
+    name: hirelens-backend
+    env: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: python run.py
+    plan: free
+    envVars:
+      - key: DATABASE_URL
+        value: sqlite:///./hirelens.db
+      - key: CORS_ORIGINS
+        value: "*"
